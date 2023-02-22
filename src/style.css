@@ -1,0 +1,607 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1440px;
+  justify-content: center;
+}
+body main {
+  background-color: #1B1B1A;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1440px;
+  width: 100%;
+}
+body main .header {
+  padding: 76px 123px;
+  display: flex;
+  max-width: 1440px;
+  width: 100%;
+  justify-content: space-between;
+}
+body main .header-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 39px;
+}
+body main .header .nav-wrapper {
+  display: flex;
+  align-items: center;
+}
+body main .header nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body main .header .nav__text {
+  font-family: Lab Grotesque, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #949494;
+}
+body main .header .active {
+  color: #FFCF7A;
+}
+body main .header ul {
+  column-gap: 50px;
+  display: flex;
+  flex-direction: row;
+}
+body main .header li {
+  list-style: none;
+}
+body main .offer-section {
+  row-gap: 30px;
+  flex-direction: column;
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  padding: 0 123px 123px 0;
+  background-image: url("assets/png/kamin4 2.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+body main .offer-section .general-container {
+  display: flex;
+  flex-direction: row;
+  column-gap: 80px;
+  padding-top: 55px;
+}
+body main .offer-section .general-container__item {
+  max-width: 116px;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+body main .benefits-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 123px 75px 123px 75px;
+  background-image: url("assets/png/blur1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+body main .benefits-section__container {
+  display: flex;
+  flex-direction: row;
+  column-gap: 140px;
+}
+body main .benefits-section__description {
+  display: flex;
+  align-items: center;
+  column-gap: 30px;
+}
+body main .benefits-section__font {
+  font-family: "Lab Grotesque", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  color: #FFFFFF;
+}
+body main .fuel-section {
+  display: flex;
+  flex-direction: row;
+  padding: 0 190px;
+  column-gap: 40px;
+}
+body main .fuel-section__logo {
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+body main .fuel-section .circle {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  border: 1px solid #FFCF7A;
+  position: absolute;
+  top: 2095px;
+  left: 51%;
+}
+body main .fuel-section .circle-second {
+  height: 140px;
+  width: 140px;
+  border-radius: 90px;
+  border: 1px solid #FFCF7A;
+  position: absolute;
+  top: 2181px;
+  left: 57%;
+}
+body main .fuel-section .image-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 660px;
+  width: 660px;
+  background-image: url("assets/png/Group 8.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+body main .fuel-section .blur {
+  position: relative;
+  left: 90px;
+  top: -35px;
+}
+body main .fuel-section .minutes-img {
+  position: relative;
+  top: -410px;
+  left: 380px;
+}
+body main .fuel-section__block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 20px;
+  order: 2;
+  position: relative;
+  top: -220px;
+}
+body main .fuel-section__container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+body main .fuel-section__font {
+  font-family: "Lab Grotesque", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 33px;
+  color: #FFFFFF;
+}
+body main .fuel-section__description {
+  max-width: 370px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  text-align: start;
+  padding-top: 80px;
+}
+body main .smart-section {
+  padding-top: 123px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+body main .smart-section__title {
+  display: flex;
+  flex-direction: row;
+  column-gap: 30px;
+}
+body main .smart-section__font {
+  margin-top: 340px;
+  font-family: "Lab Grotesque", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 33px;
+  text-align: center;
+  color: #464239;
+}
+body main .smart-section__description {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  height: 600px;
+  width: 1306px;
+  column-gap: 45px;
+  padding-left: 250px;
+  background-image: url("assets/png/kamin6 1.png");
+}
+body main .smart-section .left {
+  margin-right: 50px;
+}
+body main .smart-section .right {
+  margin-left: 32px;
+}
+body main .settings-section {
+  display: flex;
+  flex-direction: row;
+  column-gap: 80px;
+  padding: 50px 123px;
+}
+body main .settings-section__text {
+  padding-bottom: 30px;
+}
+body main .settings-section__variants {
+  display: flex;
+  flex-direction: row;
+  column-gap: 94px;
+}
+body main .settings-section__variants .variants__container {
+  row-gap: 5px;
+  display: flex;
+  flex-direction: column;
+}
+body main .settings-section__pointer {
+  display: flex;
+  flex-direction: row;
+}
+body main .settings-section__left {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  row-gap: 20px;
+  padding-top: 75px;
+}
+body main .settings-section .left-block {
+  padding-top: 110px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+body main .settings-section .line {
+  border-bottom: 1px solid rgba(255, 207, 122, 0.72);
+}
+body main .settings-section .point-line {
+  position: relative;
+  top: 39px;
+  margin-left: -3px;
+  height: 40px;
+  width: 20px;
+  clip-path: polygon(17% 0, 11% 0, 87% 100%, 93% 100%);
+  background: rgba(255, 207, 122, 0.72);
+}
+body main .settings-section .info-block {
+  width: 537px;
+  height: 346px;
+  background-color: #121212;
+}
+body main .settings-section .info-block .arrow-wrapper {
+  display: flex;
+  column-gap: 14px;
+  padding-top: 283px;
+  padding-left: 40px;
+}
+body main .catalog-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body main .catalog-section__button {
+  font-family: "Lab Grotesque", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: #121212;
+}
+body main .fireplace-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+}
+body main .fireplace-section__variants {
+  display: flex;
+  padding: 50px 0 90px 0;
+  flex-direction: row;
+  column-gap: 42px;
+}
+body main .fireplace-section .fireplace-window {
+  width: 370px;
+  height: 267px;
+  background-color: #121212;
+}
+body main .generator-section {
+  display: flex;
+  flex-direction: column;
+}
+body main .generator-section__wrapper {
+  display: flex;
+  flex-direction: row;
+  column-gap: 80px;
+  padding-top: 67px;
+}
+body main .generator-section__font {
+  font-family: "Lab Grotesque", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 55px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.5);
+}
+body main .generator-section__range-wrapper {
+  display: flex;
+  flex-direction: row;
+  column-gap: 39px;
+}
+body main .generator-section .slider {
+  margin: auto;
+  outline: none;
+  padding: 0;
+  width: 403px;
+  height: 2px;
+  background-color: #646464;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #FFCF7A), color-stop(100%, #FFCF7A));
+  background-size: 75% 100%;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  cursor: pointer;
+  -webkit-appearance: none;
+}
+body main .generator-section .slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 30px;
+  height: 30px;
+  background: #FFCF7A;
+  cursor: pointer;
+  border-radius: 2px;
+}
+body main .generator-section .generator-section-block {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+body main .generator-section__panel {
+  display: flex;
+  flex-direction: column;
+}
+body main .generator-section .checkbox-wrapper {
+  width: 217px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+body main .generator-section .checkbox {
+  display: grid;
+  place-content: center;
+  appearance: none;
+  background-color: #1B1B1A;
+  margin: 0;
+  font: inherit;
+  color: currentColor;
+  width: 1.15em;
+  height: 1.15em;
+  border-radius: 2px;
+  transform: translateY(-0.075em);
+  border: 1.5px solid #FFCF7A;
+}
+body main .generator-section .checkbox::before {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 17px;
+  content: "+";
+  width: 1.16em;
+  height: 1.16em;
+  transform: scale(0);
+  transition: 120ms transform ease-in-out;
+  box-shadow: inset 2em 1em #FFCF7A;
+  border-radius: 2px;
+}
+body main .generator-section .checkbox:checked::before {
+  transform: scale(1);
+}
+body main .generator-section .checkbox-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+body main .generator-section .checkbox-table {
+  display: flex;
+  flex-direction: row;
+  column-gap: 140px;
+}
+body main .generator-section .control-panel {
+  display: flex;
+  flex-direction: row;
+  column-gap: 200px;
+  padding: 80px 0 100px 0;
+}
+body main .generator-section .control-panel__el {
+  display: flex;
+  flex-direction: column;
+}
+body main .generator-section .control-panel .color {
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background: none;
+  cursor: pointer;
+  height: 30px;
+  padding: 0;
+  width: 25px;
+  border: none;
+}
+body main .generator-section .control-panel ::-webkit-color-swatch {
+  border-radius: 60px;
+}
+body main .contact-section {
+  padding: 72px 120px;
+  background-color: #121212;
+}
+body main .contact-section__container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  column-gap: 210px;
+  padding-top: 80px;
+}
+body main .contact-section__bright-font {
+  font-family: "Lab Grotesque", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 36px;
+  color: #FFFFFF;
+}
+body main .contact-section__block {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+}
+body main .contact-section .contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 279px;
+  height: 60px;
+  border: 1px solid #FFCF7A;
+  border-radius: 2px;
+}
+body .footer {
+  max-width: 1440px;
+  width: 100%;
+  padding: 20px 120px;
+  border-top: 1px solid #1B1B1A;
+  background-color: #121212;
+}
+body .footer__font {
+  font-family: "Lab Grotesque", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.05em;
+  color: #6D6D6D;
+}
+body .stripe {
+  margin-top: 40px;
+  width: 40px;
+  border-top: 1px solid #949494;
+}
+body .button-wrapper {
+  margin-top: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 284px;
+  height: 60px;
+  background: linear-gradient(#F98B4D, #FFD9C4);
+  border-radius: 5px;
+}
+body .header-font {
+  font-family: "Scania Sans CY Headline", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 70px;
+  letter-spacing: 0.105em;
+  color: #FFFFFF;
+}
+body .price-font {
+  font-family: "Lab Grotesque", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 40px;
+  letter-spacing: 0.05em;
+  color: #FFCF7A;
+}
+body .mini-font {
+  font-family: "Lab Grotesque", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  color: #FFFFFF;
+}
+body .description-font {
+  font-family: "Lab Grotesque", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.05em;
+  color: #6D6D6D;
+}
+body .general-font {
+  font-family: "Lab Grotesque", sans-serif;
+  font-weight: 250;
+  font-size: 64px;
+  line-height: 80px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  background: linear-gradient(226.43deg, #FFFFFF 49.37%, rgba(255, 255, 255, 0) 99.78%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+body .contact-section__font {
+  font-family: "Lab Grotesque", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 36px;
+  color: #949494;
+}
+
+.phone-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+  margin-left: 60px;
+  border-radius: 5px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  background: linear-gradient(#F98B4D, #FFD9C4);
+}
+
+.pos {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+@font-face {
+  font-family: "RalewayRegular";
+  src: url("./fonts/Scania/ScaniaSansCYHeadline-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Lab Grotesque";
+  src: url("./fonts/Lab/LabGrotesque-Light.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+/*# sourceMappingURL=style.css.map */
